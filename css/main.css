@@ -1,0 +1,417 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.clearfix{
+    content: " ";
+    clear: both;
+}
+/* Start Navber */
+nav{
+    background-color: black;
+    z-index: 55555;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: white;
+    padding: 15px;
+    display: inline-block;
+}
+nav ul li:last-child{
+    float: right;
+}
+nav ul li a:hover {
+    background-color: rgb(204, 204, 204 ,.6);
+}
+/*End Navber */
+/* Start Text Header */
+.info{
+   padding-top: 30px;
+   padding-bottom: 55px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+.info h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.info span{
+    background-color: black;
+    color: white;
+    padding: 3px 15px;
+}
+/* Start Text Header */
+/* Start Slider */
+.slider{
+    position: relative;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+.slider .info-text{
+    position: absolute;
+    top: 50%;
+    left: 40px;
+}
+.slider .info-text h3{
+    letter-spacing: 2px;
+}
+.slider .info-text h1{
+    letter-spacing: 5px;
+    font-size:65px;
+    font-weight: bold;
+}
+.slider .info-text button{
+    background-color:#ccc;
+    color: black;
+    padding: 15px 25px;
+    border-style: none;
+}
+.slider .info-text button:hover{
+    background-color:#EEE
+}
+@media screen and (max-width:576px){
+    .slider{
+        position: relative;
+    }
+    .slider .info-text{
+        position: absolute;
+        top: 23%!important;
+        left: 40px;
+    }
+}
+/* Start Slider */
+/* Start Main */
+article{
+    background-color: #F1F1F1;
+    padding: 30px;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif;
+    height: auto;
+}
+article .aside-left{
+    float: left;
+    width: 60%;
+}
+article .aside-left .imges-text{
+    background-color:white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+article .aside-left .imges-text h3 , .p-text{
+    text-align: center;
+    padding-bottom: 10px;
+}
+article .aside-left .imges-text p span{
+    opacity: 0.6;
+}
+article .aside-left .imges-text img{
+    width: 100%;
+    padding-top: 15px;
+}
+article .aside-left .text-left{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+article .aside-left .text-left p{
+    opacity: 0.6;
+    padding-bottom: 20px;
+}
+article .aside-left .div-left .btn-left{
+    float: left;
+    padding: 10px 20px;
+    background-color: none;
+    border: 1px solid #999;
+}
+article .aside-left .div-left .btn-right{
+    float: right;
+    padding: 10px 25px;
+    background-color: black;
+    color: white;
+    border: 1px solid #999;
+}
+article .aside-left .div-left .btn-right span{
+    padding: 0px 10px;
+    background-color: white;
+    color: black;
+}
+@media screen and (max-width:576px){
+    .aside-left{
+        display:inline-block;
+        width: 100%!important;
+    }
+    .slider .info-text h1 {
+        letter-spacing: 2px;
+        font-size: 36px;
+        font-weight: bold;
+    }
+}
+/*************************** This Is Port Tow Aside Right **************************/
+/* Start Imge Aside Right */
+article .aside-right{
+    float: right;
+    width: 40%;
+    padding-left: 40px;
+}
+article .aside-right .imges-right {
+    background-color: black;
+    color: white;
+    margin-bottom: 30px;
+}
+article .aside-right .imges-right p{
+    padding: 0px 0px 20px 20px;
+}
+/* End Imge Aside Right */
+
+/* Start Menu-Hoppies */
+ .menu-hoppies h3{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.menu-hoppies .navber  ul{
+    list-style: none;
+    float:left;
+    width: 100%;
+}
+ .menu-hoppies .navber  ul li{
+    display: block;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+ .menu-hoppies .navber  ul li p{
+    float: right;
+    padding: 10px;
+    width: 415px;
+}
+ .menu-hoppies .navber  ul li img{
+    width: 90px;
+    height: 90px;
+    padding: 10px ;
+}
+.menu-hoppies .navber  ul li:hover{
+    background-color: #ccc;
+}
+/* End Menu-Hoppies */
+/* Start Add */
+.add{
+    margin-top: 30px;
+    position: relative;
+}
+.add .add-text{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.add .bg-add{
+    background-color: white;
+    height: 200px;
+}
+.add .bg-add p{
+    position: absolute;
+    background-color: #EEE;
+    width: 92%;
+    margin: 20px;
+    height: 160px;  
+}
+.add .bg-add p span{
+    position: absolute;
+    top: 42%;
+    left: 44%;
+    opacity: .6;
+}
+/* End Add */
+
+/* Start ImgeInline */
+.ImgeInline{
+    margin-top: 30px;
+}
+.ImgeInline .add-text{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.ImgeInline .imges-inline{
+    height: auto;
+    background-color: white;
+    padding: 15px 10px;
+    text-align: center;
+}
+.ImgeInline .imges-inline img{
+    width: 45%;
+    height: 47%;
+}
+/* End ImgeInline */
+/* Start Icons */
+.icons {
+    margin-top: 30px;
+}
+.icons .add-text  {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.icons .icons-div{
+    background-color: white;
+    height: 50px;
+    padding: 15px;
+}
+.icons .icons-div a{
+    color: black;
+}
+.icons .icons-div i{
+    padding-left: 20px;
+    font-size: 25px;
+}
+.icons .icons-div i:hover{
+    color: #ccc;
+}
+/* End Icons */
+
+/* Start form */
+.form{
+    margin-top: 30px;
+}
+.form .add-text{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.form form{
+    background-color: white;
+    height: auto;
+    padding: 20px;
+}
+.form form p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: .4;
+}
+.form form input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.form form button{
+    background-color: #F44336;
+    width: 100%;
+    padding: 10px;
+    border-style: none;
+    color: white;
+}
+/* End form */
+
+/* End Main */
+/* Start  js event */
+.div-dis-none{
+    background-color: rgb(231, 229, 229);
+    color: black;
+    height: 200px;
+    display: none;
+    padding: 10PX;
+    position: fixed;
+    top: 30%;
+    left:20%;
+}
+.div-dis-none .aps{
+    position: relative;
+}
+.div-dis-none .aps button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 10px;
+}
+
+.div-dis-none .aps button:hover{
+    background-color: #F44336;
+    border-style: none;
+}
+
+.div-dis-none P{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.div-dis-none input ,.button-danger{
+    width: 80%;
+    margin-left: 45px;
+    padding: 10px;
+}
+
+.div-dis-none .button-danger{
+    background-color: #F44336;
+    width: 80%;
+    border-style: none;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:576px){
+    /* Start Imge Aside Right */
+    .aside-right{
+        width: 100%!important;
+        padding-left: 0px!important;
+    }
+    /* End Imge Aside Right */
+    /* Start Menu-Hoppies */
+    .menu-hoppies .navber  ul li p{
+        float: right;
+        padding: 10px;
+        width: 210px;
+    }
+    /* Start Menu-Hoppies */
+    /* Start Add */
+    .add .bg-add p{
+        width: 88%;
+    }
+    .add .bg-add p span{
+        left: 36%;
+    }
+    /* End Add */
+    /* Start Icons */
+    .icons .icons-div i{
+        padding-left: 13px;
+    }
+    /* End Icons */
+    /* Start form */
+    .form form input{
+        margin:6px 0 10px 1px!important;
+    }
+    /* End form */
+    /* Start  js event */
+    .div-dis-none{
+        top: 30%;
+        left:6%;
+        width: 90%;
+        margin-left: -5px;
+    }
+    
+    /* End  js event */
+}
+/* Start Footer */
+footer{
+    background-color: #616161;
+    padding: 30px;
+}
+footer button{
+    background-color:black;
+    color: white;
+    padding: 15px 40px;
+    border-style: none;
+}
+footer button:hover{
+    background-color:#ccc;
+    color: black;
+}
+footer p , a{
+    color: white;
+    padding-top: 20px;
+}
+/* End Footer */
